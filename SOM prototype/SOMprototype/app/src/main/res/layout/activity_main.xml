@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Som_mymate1">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="clip_vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finding My Drawing Mate"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center">
+    </TextView>
+    <CheckBox
+        android:id="@+id/Chk1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:textSize="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:text="평소 감성적이라는 말을 많이 듣는다.">
+    </CheckBox>
+    <CheckBox
+        android:id="@+id/Chk2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:text="모든 일에 대해 계획을 세워놓는다.">
+    </CheckBox>
+    <CheckBox
+        android:id="@+id/Chk3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:text="혼자 시간을 보내는 것보다 \n사람들과 어울리는 것을 좋아한다.">
+    </CheckBox>
+    <CheckBox
+        android:id="@+id/Chk4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:text="새로운 것을 두려워하지 않는다.">
+    </CheckBox>
+    <CheckBox
+        android:id="@+id/Chk5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:text="선택을 할 떄 고민을 오래하는 편이다.">
+    </CheckBox>
+    <CheckBox
+        android:id="@+id/Chk6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:text="타인을 위해선 내가 희생해도 좋다.">
+    </CheckBox>
+    <Button
+        android:id="@+id/Btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="다음"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="right|bottom">
+    </Button>
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
