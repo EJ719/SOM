@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_checkprogram">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.som_prototype.ui.home.HomeFragment"
+        android:label="전문프로그램 확인하기"
+        tools:layout="@layout/fragment_checkrprogram">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
+            app:destination="@id/nav_home_second" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_home_second"
+        android:name="com.example.som_prototype.ui.home.HomeSecondFragment"
+        android:label="@string/home_second"
+        tools:layout="@layout/fragment_home_second">
+        <action
+            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
+            app:destination="@id/nav_home" />
+
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_chekcreserve"
+        android:name="com.example.som_prototype.ui.gallery.GalleryFragment"
+        android:label="예약현황 확인"
+        tools:layout="@layout/fragment_checkreserve" />
+
+    <fragment
+        android:id="@+id/nav_makereserve"
+        android:name="com.example.som_prototype.ui.slideshow.SlideshowFragment"
+        android:label="예약하기"
+        tools:layout="@layout/fragment_makereserve" />
+</navigation>

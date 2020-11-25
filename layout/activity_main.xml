@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FFFFEC">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#B5D692"
+            android:text="SOM"
+            android:paddingLeft="15dp"
+            android:textColor="#ffffff"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:typeface="serif">
+        </TextView>
+
+        <Button
+            android:id="@+id/Btn1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="200dp"
+            android:text="랜덤 집단상담"
+            android:typeface="serif"
+            android:textSize="20dp">
+        </Button>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="서로의 이야기를 듣고,'나'의 이야기를 말하면서 \n치유하는 시간을 갖습니다."
+            android:gravity="center"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp">
+        </TextView>
+        <Button
+            android:id="@+id/Btn2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:typeface="serif"
+            android:text="1:1 전문 상담사 매칭"
+            android:textSize="20dp">
+        </Button>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="전문 상담사에게 상담과 적절한 치료법을\n 온라인으로 간편하게 받아보세요."
+            android:gravity="center"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp">
+        </TextView>
+    </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>

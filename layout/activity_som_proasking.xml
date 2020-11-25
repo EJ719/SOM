@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".som_proasking">
+<!--상담내용 누르고 실행되는 위젯 (select.xml창의 버튼 모두에 해당)-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+            android:background="#FFFFEC"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#B5D692"
+            android:text="SOM"
+            android:paddingLeft="15dp"
+            android:textColor="#ffffff"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:typeface="serif">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="이용할 서비스를 선택해주세요"
+            android:typeface="serif"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="50dp"
+            android:paddingLeft="40dp"
+            android:textSize="25dp"
+            android:background="#FFFFEC">
+        </TextView>
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="원하는 날짜와 시간에 어디서든 \n상담을 진행할 수 있습니다."
+            android:typeface="serif"
+            android:gravity="center"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="70dp"
+            android:textSize="20dp">
+        </TextView>
+        <Button
+            android:id="@+id/BtnChat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:typeface="serif"
+            android:padding="30dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:text="채팅상담">
+         </Button>
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="얼굴을 마주하지 않고, 일반적인 \n상담과 동일하게 진행됩니다."
+            android:typeface="serif"
+            android:gravity="center"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="90dp"
+            android:textSize="20dp">
+        </TextView>
+        <Button
+            android:id="@+id/BtnVoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:typeface="serif"
+            android:padding="30dp"
+            android:layout_gravity="center"
+            android:text="음성상담">
+       </Button>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".som_reservfinish">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B5D692"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="예약이 완료되었습니다."
+            android:textColor="#67804d"
+            android:typeface="serif"
+            android:textSize="30dp"
+            android:layout_marginTop="200dp"
+            android:layout_gravity="center" >
+        </TextView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:background="#FFFFEC">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="최소 예약 인원이 5명이상이 되면\n 예약 확정문자와 알림이 발송됩니다."
+                android:typeface="serif"
+                android:textSize="20dp"
+                android:layout_marginTop="30dp"
+                android:textColor="#67804d"
+                android:layout_gravity="center"
+                android:gravity="center">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="예약 인원이 5명이하 일 시,\n 예약취소 알림이 발송됩니다."
+                android:typeface="serif"
+                android:textSize="20dp"
+                android:textColor="#67804d"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:gravity="center">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="예약 취소시, 자동환불이 진행되며 2~3일이 소요됩니다."
+                android:typeface="serif"
+                android:textSize="15dp"
+                android:textColor="#67804d"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:gravity="center">
+            </TextView>
+            <Button
+                android:id="@+id/BtnOk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="확인"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:typeface="serif">
+            </Button>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
