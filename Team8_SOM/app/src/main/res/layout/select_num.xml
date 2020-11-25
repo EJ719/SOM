@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FFFFEC">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#B5D692"
+            android:text="SOM"
+            android:paddingLeft="15dp"
+            android:textColor="#ffffff"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:typeface="serif">
+        </TextView>
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/som6"
+            tools:ignore="MissingConstraints"
+            android:layout_gravity="center"
+            android:layout_marginTop="100px"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="원하시는 상담을 선택해주세요"
+            android:typeface="serif"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="40dp"
+            android:textSize="25dp"
+            android:textColor="#67804d">
+        </TextView>
+        <Button
+            android:id="@+id/Btn0"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="무료 랜덤 집단상담"
+            android:typeface="serif"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="@drawable/buttoncolor">
+        </Button>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="무료로 진행하는 서비스로 상담사 없이 \n 고민 별 집단 상담이 진행됩니다"
+            android:gravity="center"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#67804d"
+            android:textSize="15dp">
+        </TextView>
+        <Button
+            android:id="@+id/Btn1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="랜덤 집단상담"
+            android:typeface="serif"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="@drawable/buttoncolor">
+        </Button>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="서로의 이야기를 듣고,'나'의 이야기를 말하면서 \n치유하는 시간을 갖습니다."
+            android:gravity="center"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#67804d"
+            android:textSize="15dp">
+        </TextView>
+        <Button
+            android:id="@+id/Btn2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="1:1 전문 상담사 매칭"
+            android:typeface="serif"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="@drawable/buttoncolor">
+        </Button>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="전문 상담사에게 상담과 적절한 치료법을\n 온라인으로 간편하게 받아보세요."
+            android:gravity="center"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#67804d"
+            android:textSize="15dp">
+        </TextView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

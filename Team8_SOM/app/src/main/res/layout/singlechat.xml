@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFEC">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B5D692"
+        android:text="SOM"
+        android:paddingLeft="15dp"
+        android:textColor="#ffffff"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:typeface="serif">
+    </TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="625dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="69dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:baseline="10dp"
+                    android:src="@drawable/som2"></ImageView>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/edge1"
+                    android:padding="8dp"
+                    android:paddingLeft="10dp"
+                    android:text="고민을 이야기 해보세요."
+                    android:textSize="17dp"></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/som2"
+                    android:baseline="10dp"
+                    android:layout_marginLeft="10dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_margin="10dp"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="너무 어렵게 생각하지 않으셔도 괜찮아요!"
+                    android:textSize="17dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/edge1">
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="250dp"
+                    android:background="@drawable/edge2"
+                    android:padding="8dp"
+                    android:paddingLeft="5dp"
+                    android:text="안녕하세요!"
+                    android:textSize="17dp"></TextView>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:baseline="30dp"
+                    android:src="@drawable/som5"></ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+                <TextView
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="155dp"
+                    android:background="@drawable/edge2"
+                    android:padding="8dp"
+                    android:paddingLeft="5dp"
+                    android:text="아직 마음이 준비가 되지 않았는데.."
+                    android:textSize="17dp"></TextView>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:baseline="30dp"
+                    android:src="@drawable/som5"></ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="145dp"
+                    android:background="@drawable/edge2"
+                    android:padding="8dp"
+                    android:paddingLeft="5dp"
+                    android:text="생각을 정리한 후에 말씀 드려도 될까요?"
+                    android:textSize="17dp"></TextView>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:baseline="30dp"
+                    android:src="@drawable/som5"></ImageView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/som2"
+                    android:baseline="10dp"
+                    android:layout_marginLeft="10dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="210dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="그럼요!충분히 생각하시고 말씀해주세요."
+                    android:textSize="17dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/edge1">
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/som2"
+                    android:baseline="10dp"
+                    android:layout_marginLeft="10dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:padding="8dp"
+                    android:text="굳이 어려운 이야기까지 하지 않으셔도 괜찮답니다."
+                    android:textSize="17dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/edge1">
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp">
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="240dp"
+                    android:background="@drawable/edge2"
+                    android:padding="8dp"
+                    android:paddingLeft="5dp"
+                    android:text="감사합니다!!"
+                    android:textSize="17dp"></TextView>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:baseline="30dp"
+                    android:src="@drawable/som5"></ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="81dp">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="140dp"
+                    android:background="@drawable/edge2"
+                    android:padding="8dp"
+                    android:paddingLeft="5dp"
+                    android:text="그렇게 말씀해주시니 마음이 놓이네요!!ㅎㅎ"
+                    android:textSize="17dp"></TextView>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:baseline="30dp"
+                    android:src="@drawable/som5"></ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/som2"
+                    android:baseline="10dp"
+                    android:layout_marginLeft="10dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="생각정리가 되시면 그때 시작할게요"
+                    android:padding="8dp"
+                    android:textSize="17dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/edge1">
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:layout_gravity="bottom"
+        >
+        <Button
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="320dp"
+            android:text="보내기"
+            android:textSize="12dp"
+            android:background="@drawable/buttoncolor">
+             </Button>
+    </LinearLayout>
+
+</LinearLayout>

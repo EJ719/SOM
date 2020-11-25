@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FFFFEC">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#B5D692"
+            android:text="SOM"
+            android:paddingLeft="15dp"
+            android:textColor="#ffffff"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:typeface="serif">
+        </TextView>
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/som6"
+            android:layout_gravity="center"
+            android:layout_marginTop="200px"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="이용할 서비스를 선택해주세요"
+            android:typeface="serif"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="40dp"
+            android:paddingLeft="40dp"
+            android:textSize="25dp"
+            android:textColor="#67804d">
+        </TextView>
+        <Button
+            android:id="@+id/Btn1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="채팅상담"
+            android:typeface="serif"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="@drawable/buttoncolor">
+        </Button>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="어디서든 편하게 \n 상담을 진행할 수 있습니다."
+            android:gravity="center"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#67804d"
+            android:textSize="15dp">
+        </TextView>
+        <Button
+            android:id="@+id/Btn2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="음성상담"
+            android:typeface="serif"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="@drawable/buttoncolor">
+        </Button>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="얼굴을 마주하지 않고, \n 일반적인 상담과 동일하게 진행됩니다."
+            android:gravity="center"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#67804d"
+            android:textSize="15dp">
+        </TextView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

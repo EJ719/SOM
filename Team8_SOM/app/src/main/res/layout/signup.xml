@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B5D692"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SignUp"
+            android:textSize="30dp"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:layout_marginBottom="60dp"
+            android:layout_marginTop="90dp">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#FFFFEC"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="20dp"
+                android:text="이름"
+                android:textColor="#67804d"
+                android:textSize="20dp"
+                android:typeface="serif"></TextView>
+
+            <EditText
+                android:id="@+id/EditID"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:layout_gravity="center"
+                android:hint="NAME"></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="20dp"
+                android:text="닉네임"
+                android:textSize="20dp"
+                android:typeface="serif"></TextView>
+
+            <EditText
+                android:id="@+id/EditUser"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="17dp"
+                android:hint="ID"></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="20dp"
+                android:text="비밀번호"
+                android:textColor="#67804d"
+                android:textSize="20dp"
+                android:typeface="serif"></TextView>
+
+            <EditText
+                android:id="@+id/EditPw"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:layout_gravity="center"
+                android:hint="Password"></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="20dp"
+                android:text="전화번호"
+                android:textColor="#67804d"
+                android:textSize="20dp"
+                android:typeface="serif"></TextView>
+
+            <EditText
+                android:id="@+id/EditEmail"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="17dp"
+                android:hint="Phone Number"></EditText>
+
+            <Button
+                android:id="@+id/BtnLog"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="회원가입"
+                android:background="@drawable/buttoncolor"
+                android:textSize="15dp"
+                android:typeface="serif"></Button>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
